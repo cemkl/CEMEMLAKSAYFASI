@@ -1,0 +1,13 @@
+CREATE DATABASE CEMEMLAK;
+
+USE CEMEMLAK;
+
+CREATE TABLE EV (
+    ID int identity primary key not null,
+    Baslik varchar(255) not null,
+    Adres varchar(255) not null,
+	OdaSayisi int not null,
+	BanyoSayisi int not null,
+	Aciklama varchar(255),
+	Fiyat int not null
+);
